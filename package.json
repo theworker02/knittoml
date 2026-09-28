@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/knittoml",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Knit config/toml key checks for twelve-factor services.",
+  "bin": {
+    "knittoml": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/knittoml.git"
+  },
+  "homepage": "https://theworker02.github.io/knittoml/",
+  "keywords": [
+    "knit",
+    "toml",
+    "config",
+    "cli",
+    "toolkit"
+  ]
+}
